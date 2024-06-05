@@ -1,0 +1,156 @@
+<!DOChttps://forms.gle/66tagc46pH13vnwu7TYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles1.css">
+                <link rel="stylesheet" href="sthref44.css">
+                        <link rel="stylesheet" href="styles55.css">
+
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">REHMAN PASHA</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                      <li><a href="#contact">Blob</a></li>
+
+                </ul>
+                <div class="hamburger-menu">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="container home-container">
+            <img src="do.jpeg" alt="REHMAN PASHA" class="profile-photo">
+            <h1>REHMAN PASHA</h1>
+                        <p style="text-align:justify;">
+Hello, I'm Rehman Pasha, a dedicated and passionate software developer with a Bachelor of Computer Applications (BCA) degree. My journey into the world of technology began with a fascination for how software can transform and improve our daily lives. This curiosity led me to pursue a degree in computer applications, where I honed my skills in various programming languages, software development methodologies, and cutting-edge technologies.</p>
+            
+                       <p style="text-align:justify;">
+During my academic career, I engaged in numerous projects that solidified my understanding of software development principles. These experiences not only enhanced my technical skills but also taught me the importance of teamwork, problem-solving, and continuous learning.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container about-container">
+            <h2>About Me</h2>
+            <p style="text-align:justify;">
+            
+            
+            
+            
+            
+            As a final-year Bachelor of Computer Applications (BCA) student, I have developed a comprehensive foundation in various aspects of computer science and software development. My academic journey has equipped me with a robust understanding of programming languages such as Java and Python, where I have gained proficiency in object-oriented programming, data structures, and algorithms. My coursework has also covered web development, database management, and software engineering principles, providing me with a well-rounded skill set. I have practical experience through multiple projects, including developing web applications using HTML, CSS, JavaScript, and frameworks like Django. Additionally, I have worked on database systems, utilizing SQL to design and manage databases effectively. My problem-solving skills have been honed through competitive programming and participation in hackathons, where I collaborated with peers to create innovative solutions.</p>
+                        <p style="text-align:justify;">
+
+Furthermore, I have a good grasp of operating systems, networking concepts, and cybersecurity basics, all of which are critical in today's tech-driven world. My experience also includes internships and industry exposure, where I applied theoretical knowledge to real-world scenarios, enhancing my technical and soft skills. As I approach the completion of my degree, I am eager to leverage my academic background, technical proficiency, and practical experience to contribute effectively in a professional.</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Software Developer PVT- Company</h3>
+                    <p>Time Period:one month</p>
+                    <p>Achievement:two days python workshop.</p>
+                </div>
+                <!-- Add more timeline items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container projects-container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                          <img src="demo.jpg" alt="REHMAN PASHA" class="profile-photo">
+
+                <h3>Books Store</h3>
+                <p>It is developed by using python with django.</p>
+                <p><strong>Technologies:</strong>
+                <p>FRONT-END</p>HTML, CSS, JavaScript,Python</p>
+               <p> <p>BACK-END</p>django,mysql</p>
+                
+                <a href="/portfolio1/index.html">Live Demo</a>
+                <a href="https://github.com/REHMAN-PASHA2002/Portfolio">GitHub Repository</a>
+                
+                 <div class="container home-container">
+                   <img src="project.jpg" alt="REHMAN PASHA" class="profile-photo">
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container contact-container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required><br>
+                
+          
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container blog-container">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Book store</h3>
+                <p>In an era where digital media dominates our lives, the allure of a brick-and-mortar bookstore remains unmatched. Walking into a bookstore is akin to entering a sanctuary for book lovers—a place where the scent of printed pages mingles with the soft rustle of paper, and where the promise of discovery lies in every else.</p>
+                
+              <p>  A Haven for Readers
+                A well-designed bookstore offers more than just shelves filled with books; it provides an experience. The ambiance is often cozy and inviting, with comfortable seating areas that encourage patrons to sit and immerse themselves in a story. Soft lighting highlights the rows of books, creating an environment that is both soothing and inspiring. This atmosphere fosters a sense of community among readers, writers, and thinkers..</p>
+                <a href="blog-post-link"></a>
+            </div>
+            <!-- Add more blog posts as needed -->
+        </div>
+    </section>
+
+    <button id="theme-toggle">Toggle Light/Dark Mode</button>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+        });
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Basic validation logic here
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+
+            if (name && email && subject && message) {
+                alert('Form submitted successfully into Rehman Pasha Book Store!');
+            } else {
+                alert('Please fill in all fields.');
+            }
+        });
+    </script>
+</body>
+</html>
